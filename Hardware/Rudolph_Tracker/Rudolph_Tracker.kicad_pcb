@@ -6473,7 +6473,7 @@
     )
   )
   (zone (net 1) (net_name "GND") (layer "In1.Cu") (tstamp 1413ea12-7e55-40ea-afc5-16a12ab8a964) (name "GND") (hatch edge 0.5)
-    (priority 15)
+    (priority 30)
     (connect_pads yes (clearance 0.13))
     (min_thickness 0.25) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.5) (thermal_bridge_width 0.5))

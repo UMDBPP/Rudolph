@@ -1,0 +1,72 @@
+Configuration	stm32l476
+STM32CubeMX 	4.27.0
+Date	10/16/2018
+MCU	STM32L476RGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+4	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+14	PA0	GPIO_Output	RADIO_RESET
+15	PA1	GPIO_Output	LED_BLUE_LEFT
+20	PA4	GPIO_Output	LED_RED_LEFT
+21	PA5	SPI1_SCK	
+22	PA6	SPI1_MISO	
+23	PA7	SPI1_MOSI	
+24	PC4	GPIO_Input	DORJI_SB1
+25	PC5	GPIO_Input	DORJI_SB2
+33	PB12	GPIO_Output	LED_BLUE_RIGHT
+37	PC6	GPIO_Input	DORI_SB3
+39	PC8	GPIO_Input	DORJI_SB4
+41	PA8	GPIO_Output	RADIO_NSS
+42	PA9	USART1_TX	
+43	PA10	USART1_RX	
+44	PA11	GPIO_Input	DORJI_L/F
+49	PA14 (JTCK-SWCLK)	GPIO_Input	DORJI_T/R
+51	PC10	GPIO_Input	DORJI_SF1
+52	PC11	GPIO_Input	DORJI_SF2
+53	PC12	GPIO_Input	DORJI_SF3
+55	PB3 (JTDO-TRACESWO)	GPIO_Input	RADIO_BUSY
+56	PB4 (NJTRST)	GPIO_EXTI4	RADIO_DIO0
+59	PB7	GPIO_Output	LED_RED_RIGHT
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : stm32l476
+Project Folder : C:\Users\HONG\Desktop\SX1262_DROJIÊ¾Àý³ÌÐò\stm32l476
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_L4 V1.13.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

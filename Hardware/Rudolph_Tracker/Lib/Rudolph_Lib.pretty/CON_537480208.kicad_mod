@@ -68,4 +68,9 @@
   (pad "18" smd rect (at 1.25 1.700002) (size 0.25 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ec2be4cb-c501-4c28-be28-8c2c46794c4b))
   (pad "19" smd rect (at 1.749999 1.700002) (size 0.25 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9813afe8-e373-4a7c-b9f3-cd662c0df092))
   (pad "20" smd rect (at 2.250001 1.700002) (size 0.25 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 74b84414-fe8e-4d90-90fa-1c70cf647f5f))
+  (model "/Users/michaelshipman/Downloads/537480208.stp"
+    (offset (xyz 0 0 1.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

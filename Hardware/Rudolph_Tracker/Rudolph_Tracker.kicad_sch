@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Rudolph Tracker")
+    (date "2023-10-18")
+    (rev "V0.0")
+    (company "BPP")
+    (comment 1 "Michael Shipman")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x08_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 10.16 0)
